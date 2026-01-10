@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SetStopwatch",
-    "slug": "SetStopwatch",
+    "name": "Set Stopwatch",
+    "slug": "Set_Stopwatch",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "dragostinh.setstopwatch"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e7c29e27-fc26-4125-b425-576da5c1f7a4"
+      }
     }
   }
 }
